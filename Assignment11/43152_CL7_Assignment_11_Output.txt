@@ -1,0 +1,102 @@
+C:\Users\vedan\Documents\College\Final_Year\ICS\Assignment_11>set classpath=C:\Users\vedan\Documents\College\Final_Year\ICS\Assignment_11\weka.jar;
+
+C:\Users\vedan\Documents\College\Final_Year\ICS\Assignment_11>javac Main.java
+
+C:\Users\vedan\Documents\College\Final_Year\ICS\Assignment_11>java Main.java
+C:\Users\vedan\Documents\College\Final_Year\ICS\Assignment_11\train.csv
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by weka.core.WekaPackageClassLoaderManager (file:/C:/Users/vedan/Documents/College/Final_Year/ICS/Assignment_11/weka.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of weka.core.WekaPackageClassLoaderManager
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+C:\Users\vedan\Documents\College\Final_Year\ICS\Assignment_11\test.csv
+C:\Users\vedan\Documents\College\Final_Year\ICS\Assignment_11\train.arff
+C:\Users\vedan\Documents\College\Final_Year\ICS\Assignment_11\test.arff
+** Naive Bayes Evaluation with Datasets **
+
+Correctly Classified Instances        2389               60.3283 %
+Incorrectly Classified Instances      1571               39.6717 %
+Kappa statistic                          0.4207
+Mean absolute error                      0.1527
+Root mean squared error                  0.3382
+Relative absolute error                 55.0184 %
+Root relative squared error             89.6258 %
+Total Number of Instances             3960
+
+ the expression for the input data as per alogorithm is Naive Bayes Classifier
+
+                       Class
+Attribute          recommend   priority  not_recom very_recom spec_prior
+                         (0)      (0.4)     (0.33)     (0.04)     (0.23)
+=========================================================================
+parents
+  usual                   3.0     1925.0     1441.0      197.0      759.0
+  pretentious             1.0     1485.0     1441.0      133.0     1265.0
+  great_pret              1.0      165.0      121.0        1.0       77.0
+  [total]                 5.0     3575.0     3003.0      331.0     2101.0
+
+has_nurs
+  proper                  3.0     1185.0      697.0      131.0       77.0
+  less_proper             1.0     1021.0      577.0      133.0        1.0
+  improper                1.0      835.0      577.0       67.0      253.0
+  critical                1.0      395.0      577.0        1.0      759.0
+  very_crit               1.0      141.0      577.0        1.0     1013.0
+  [total]                 7.0     3577.0     3005.0      333.0     2103.0
+
+form
+  complete                3.0      973.0      793.0      119.0      493.0
+  completed               1.0      925.0      769.0      101.0      513.0
+  incomplete              1.0      845.0      721.0       71.0      527.0
+  foster                  1.0      833.0      721.0       41.0      569.0
+  [total]                 6.0     3576.0     3004.0      332.0     2102.0
+
+housing
+  convenient              3.0     1257.0     1003.0      209.0      539.0
+  less_conv               1.0     1189.0     1003.0      101.0      717.0
+  critical                1.0     1129.0      997.0       21.0      845.0
+  [total]                 5.0     3575.0     3003.0      331.0     2101.0
+
+finanace
+  convenient              3.0     1821.0     1501.0      219.0      961.0
+  inconv                  1.0     1753.0     1501.0      111.0     1139.0
+  [total]                 4.0     3574.0     3002.0      330.0     2100.0
+
+social
+  nonprob                 2.0     1217.0     1001.0      165.0      620.0
+  slightly_prob           2.0     1217.0     1001.0      165.0      620.0
+  problematic             1.0     1141.0     1001.0        1.0      861.0
+  [total]                 5.0     3575.0     3003.0      331.0     2101.0
+
+health
+  recommended             3.0     1863.0        1.0      329.0      809.0
+  priority                1.0     1711.0        1.0        1.0     1291.0
+  not_recom               1.0        1.0     3001.0        1.0        1.0
+  [total]                 5.0     3575.0     3003.0      331.0     2101.0
+
+1
+  mean                      1     0.2665      0.252     0.4512     0.1954
+  std. dev.            0.1667     0.4421     0.4342     0.4976     0.3965
+  weight sum                2       3572       3000        328       2098
+  precision                 1          1          1          1          1
+
+2
+  mean                      0     0.2553      0.252     0.3049     0.2383
+  std. dev.            0.1667      0.436     0.4342     0.4604     0.4261
+  weight sum                2       3572       3000        328       2098
+  precision                 1          1          1          1          1
+
+3
+  mean                      0     0.2408       0.25      0.122      0.286
+  std. dev.            0.1667     0.4275      0.433     0.3272     0.4519
+  weight sum                2       3572       3000        328       2098
+  precision                 1          1          1          1          1
+
+more
+  mean                      0     0.2374      0.246      0.122     0.2803
+  std. dev.            0.1667     0.4255     0.4307     0.3272     0.4491
+  weight sum                2       3572       3000        328       2098
+  precision                 1          1          1          1          1
+
+
+
+C:\Users\vedan\Documents\College\Final_Year\ICS\Assignment_11>
